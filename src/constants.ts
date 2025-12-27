@@ -11,11 +11,11 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Site-wide title
 	 */
-	title: 'My Blog',
+	title: 'Pankaj',
 	/**
 	 * Used on index page and as a fallback if no title is set
 	 */
-	titleDefault: 'My Blog',
+	titleDefault: 'Pankaj',
 	/**
 	 * Used in meta tags, RSS feed, and other places
 	 */
