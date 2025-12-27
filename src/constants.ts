@@ -11,15 +11,15 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Site-wide title
 	 */
-	title: 'Minimal Blog',
+	title: 'My Blog',
 	/**
 	 * Used on index page and as a fallback if no title is set
 	 */
-	titleDefault: 'Astro Theme: Minimal Blog',
+	titleDefault: 'My Blog',
 	/**
 	 * Used in meta tags, RSS feed, and other places
 	 */
-	description: 'Minimal Astro blog theme with extensive code syntax highlighting capabilities, focus on typography, and clean design bringing your content to the forefront.',
+	description: 'Personal blog.',
 	/**
 	 * Language used in the <html> tag
 	 */
@@ -31,7 +31,7 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Default author name that gets added to meta tags
 	 */
-	defaultAuthor: 'LekoArts',
+	defaultAuthor: 'Pankaj',
 }
 
 interface Header {
@@ -61,15 +61,8 @@ export const HEADER: Header = {
 	 */
 	external: [
 		{
-			title: 'Bluesky',
-			url: 'https://bsky.app/profile/lekoarts.de',
-			props: {
-				target: '_blank',
-			},
-		},
-		{
-			title: 'Homepage',
-			url: 'https://www.lekoarts.de/?utm_source=astro-theme-minimal-blog',
+			title: 'GitHub',
+			url: 'https://github.com/pankajsys',
 			props: {
 				target: '_blank',
 			},
@@ -83,10 +76,6 @@ export const HEADER: Header = {
 export const FRONTMATTER_TAGS = new Map(
 	[
 		['General', 'general'] as const,
-		['Coding', 'coding'] as const,
-		['MDX', 'mdx'] as const,
-		['Open Source', 'open-source'] as const,
-		['서울', '서울'] as const,
 	],
 )
 
