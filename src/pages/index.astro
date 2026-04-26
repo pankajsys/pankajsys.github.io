@@ -19,9 +19,13 @@ const posts = sortAsc(await getCollection('blog')).slice(0, POSTS_TO_SHOW)
 	<Seo slot="seo" />
 	<SkipNavContent>
 		<h1 class="sr-only">{SITE.title}</h1>
-		<Prose>
-			<Hero />
-		</Prose>
+		<section class="home-hero">
+			<div class="home-hero__content">
+				<Prose>
+					<Hero />
+				</Prose>
+			</div>
+		</section>
 		<Spacer axis="vertical" size={32} />
 		<section>
 			<div class="border-b border-border pb-4 flex justify-between items-center">
